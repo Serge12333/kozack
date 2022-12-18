@@ -27,12 +27,10 @@ const Container = styled.div`
     font-size: 40px;
     line-height: 120%;
     color: #3a3a3a;
-    margin: 30px;
-    padding-top: 40px;
     text-align: center;
   }
   img {
-    margin: 0px 20px 10px;
+    width: 40%;
   }
 `;
 
@@ -41,7 +39,7 @@ const Photos = () => {
     <AnimatedPage>
       <MainWrapper className="mainwrpfr">
         <Container>
-          <h3 className="titlefnr">Наші контакти</h3>
+          <h3 className="titlefnr" id="contacts">Наші контакти</h3>
           <div className="contactholder">
             <img src={map} alt="map" />
           </div>

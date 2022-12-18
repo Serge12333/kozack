@@ -177,7 +177,7 @@ const OurProducts = () => {
   return (
     <AnimatedPage>
       <MainWrapper>
-        <h4>Набори</h4>
+        <h4 id="tier">Набори</h4>
         <Gridwrapper className="gridWrapper">
           <div className="card">
             <img src={basic} />

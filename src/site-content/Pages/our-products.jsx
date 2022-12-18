@@ -175,7 +175,7 @@ const OurProducts = () => {
   return (
     <AnimatedPage>
       <MainWrapper>
-        <h4>Товари</h4>
+        <h4 id="merchandise">Товари</h4>
         <Gridwrapper className="gridWrapper">
           <div className="card">
             <img src={acc100} />

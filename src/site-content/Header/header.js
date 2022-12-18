@@ -28,8 +28,8 @@ const Inputs = styled.div`
   img {
     margin-right: 41px;
   }
-  logos{
-    max-width:60%;
+  logos {
+    max-width: 60%;
   }
   ul {
     list-style: none;
@@ -43,7 +43,7 @@ const Inputs = styled.div`
         font-size: 16px;
         transition: 0.5s ease-in-out;
         &:hover {
-          color: grey;
+          color: orange;
         }
       }
     }
@@ -92,20 +92,22 @@ const Header = () => {
   return (
     <div>
       <div className={isActive ? "sidenav activemove" : "sidenav"}>
-        <NavLink to="/intro" onClick={closeSideBar}>
-          <a href="#" className="sidelink">
-            Головна
-          </a>
-        </NavLink>
-        <NavLink to="/our-products" onClick={closeSideBar}>
-          <a href="#">Товари</a>
-        </NavLink>
-        <NavLink to="/packages" onClick={closeSideBar}>
-          <a href="#">Готові рішення</a>
-        </NavLink>
-        <NavLink to="/contacts" onClick={closeSideBar}>
-          <a href="#">Контакти</a>
-        </NavLink>
+        <a href="#intro" className="sidelink" onClick={closeSideBar}>
+          Головна
+        </a>
+
+        <a href="#merchandise" onClick={closeSideBar}>
+          Товари
+        </a>
+
+        <a href="#tier" onClick={closeSideBar}>
+          Готові рішення
+        </a>
+
+        <a href="#contacts" onClick={closeSideBar}>
+          Контакти
+        </a>
+
         <div className="white-line"></div>
       </div>
       <div className="resp-menu-sticky">
@@ -130,35 +132,16 @@ const Header = () => {
               <img src={Funiro} className="logos" alt="funiro" />
               <ul>
                 <li>
-                  <NavLink
-                    to="/intro"
-                    className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }
-                  >
-                   Головна
-                  </NavLink>
+                  <a href="#intro">Головна</a>
                 </li>
                 <li>
-                  <NavLink to="/our-products" className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }>
-                    Товари
-                  </NavLink>
+                  <a href="#merchandise">Товари</a>
                 </li>
                 <li>
-                  <NavLink to="/packages" className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }>
-                    Готові рішення
-                  </NavLink>
+                  <a href="#tier">Готові рішення</a>
                 </li>
                 <li>
-                  <NavLink to="/contacts" className={({ isActive }) =>
-                      isActive ? activeClassName : undefined
-                    }>
-                   Контакти
-                  </NavLink>
+                  <a href="#contacts">Контакти</a>
                 </li>
               </ul>
             </Inputs>

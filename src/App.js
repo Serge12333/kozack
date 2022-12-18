@@ -1,4 +1,3 @@
-import { Route, Routes, useLocation } from "react-router-dom";
 import Header from "./site-content/Header/header";
 import Intro from "./site-content/Pages/introduction";
 import OurProducts from "./site-content/Pages/our-products";
@@ -8,24 +7,15 @@ import Photos from "./site-content/Pages/furniture";
 import Footer from "./site-content/Footer/footer";
 import "../node_modules/slick-carousel/slick/slick.css";
 import "../node_modules/slick-carousel/slick/slick-theme.css";
-import { AnimatePresence } from "framer-motion";
 
 const App = () => {
-  const location = useLocation();
   return (
     <div className="App">
       <Header />
-      <AnimatePresence exitBeforeEnter>
-        <Routes key={location.pathname} location={location}>
-          <Route path="/kozack" element={<Intro />} />
-          <Route index element={<Intro />} />
-          <Route path="/intro" element={<Intro />} />
-          <Route path="/our-products" element={<OurProducts />} />
-          <Route path="/packages" element={<Beau />} />
-          <Route path="/tips" element={<Tipsinf />} />
-          <Route path="/contacts" element={<Photos />} />
-        </Routes>
-      </AnimatePresence>
+      <Intro />
+      <OurProducts />
+      <Beau />
+      <Photos />
       <Footer />
     </div>
   );
