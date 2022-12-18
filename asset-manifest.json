@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kozack/static/css/main.08ec0e27.css",
-    "main.js": "/kozack/static/js/main.413cbbec.js",
+    "main.js": "/kozack/static/js/main.b422722b.js",
     "static/js/787.283120fe.chunk.js": "/kozack/static/js/787.283120fe.chunk.js",
     "static/media/caravan.jpg": "/kozack/static/media/caravan.e89245d7f4bd0bea22a6.jpg",
     "static/media/blackout.jpg": "/kozack/static/media/blackout.a016df523910e60f164a.jpg",
@@ -38,11 +38,11 @@
     "static/media/slick.woff": "/kozack/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/kozack/index.html",
     "main.08ec0e27.css.map": "/kozack/static/css/main.08ec0e27.css.map",
-    "main.413cbbec.js.map": "/kozack/static/js/main.413cbbec.js.map",
+    "main.b422722b.js.map": "/kozack/static/js/main.b422722b.js.map",
     "787.283120fe.chunk.js.map": "/kozack/static/js/787.283120fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08ec0e27.css",
-    "static/js/main.413cbbec.js"
+    "static/js/main.b422722b.js"
   ]
 }
