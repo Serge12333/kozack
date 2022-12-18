@@ -289,7 +289,8 @@ const OurProducts = () => {
             </div>
           </div>
         </Gridwrapper>
-        <h3>Замовлення за телефоном: 095 494 10 10</h3>
+        <h3>Замовлення за телефоном:</h3>
+        <h3>095 494 10 10</h3>
       </MainWrapper>
     </AnimatedPage>
   );

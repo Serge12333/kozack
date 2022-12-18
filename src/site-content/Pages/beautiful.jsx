@@ -214,7 +214,7 @@ const OurProducts = () => {
               <p className="descrp">Вольтаж 24V</p>
               <p className="descrp">Потужність акумуляторів 2640 Ватт</p>
               <p className="descrp">Інвертор PowMr 3200W</p>
-              <p className="descrp">Потужність інвертора 3kw</p>
+              <p className="descrp">Потужність інвертора 3.2kw</p>
               <div className="priceHolder">
                 <p className="price">51 110 грн</p>
                 <p className="discount">53 800 грн</p>
@@ -234,8 +234,8 @@ const OurProducts = () => {
               <p className="descrp">Кількість аккумуляторів 4 шт</p>
               <p className="descrp">Вольтаж 48V</p>
               <p className="descrp">Потужність акумуляторів 6720 Ватт</p>
-              <p className="descrp">Інвертор EASUN 3000W</p>
-              <p className="descrp">Потужність інвертора 3kw</p>
+              <p className="descrp">Інвертор PowMr 5500w</p>
+              <p className="descrp">Потужність інвертора 5.5kw</p>
               <div className="priceHolder">
                 <p className="price">92 150 грн</p>
                 <p className="discount">97 000 грн</p>
@@ -243,7 +243,8 @@ const OurProducts = () => {
             </div>
           </div>
         </Gridwrapper>
-        <h3>Замовлення за телефоном: 095 494 10 10</h3>
+        <h3>Замовлення за телефоном:</h3>
+        <h3>095 494 10 10</h3>
       </MainWrapper>
     </AnimatedPage>
   );
