@@ -13,7 +13,7 @@ import eas from "../Content/our-products/easun.jpg";
 
 const MainWrapper = styled.div`
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 0px;
   width: 85%;
   h3 {
     font-weight: 700;
@@ -22,7 +22,6 @@ const MainWrapper = styled.div`
     color: orange;
     margin-bottom: 0px;
     text-align: center;
-    margin-bottom: 20px;
   }
   h4 {
     font-weight: 700;
@@ -58,7 +57,7 @@ const MainWrapper = styled.div`
 const Gridwrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 33.3%);
-  justify-items: center;
+  justify-content: center;
   gap: 32px;
   margin-bottom: 32px;
   .biginv {
@@ -71,7 +70,10 @@ const Gridwrapper = styled.div`
   }
   .card {
     .paddin-gap {
-      padding: 0px 31px 30px 16px;
+      padding: 0px 31px 0px 16px;
+    }
+    .smaller_picture {
+      width: 87%;
     }
     h6 {
       font-weight: 600;
@@ -197,7 +199,7 @@ const OurProducts = () => {
             </div>
           </div>
           <div className="card">
-            <img src={acc110} />
+            <img src={acc110} className="smaller_picture" />
             <div className="paddin-gap">
               <h6>Аккумулятор Electronix 110 aH</h6>
               <p className="descrp">Ємність (Ah) 110</p>

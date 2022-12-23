@@ -92,9 +92,6 @@ const Header = () => {
   return (
     <div>
       <div className={isActive ? "sidenav activemove" : "sidenav"}>
-        <a href="#intro" className="sidelink" onClick={closeSideBar}>
-          Головна
-        </a>
 
         <a href="#merchandise" onClick={closeSideBar}>
           Товари
@@ -107,8 +104,9 @@ const Header = () => {
         <a href="#contacts" onClick={closeSideBar}>
           Контакти
         </a>
-
         <div className="white-line"></div>
+        <a href="tel: +380954941010" className="info_contact">+38 (095) 494 10 10</a>
+        <p className="info_contact">Україна, м. Запоріжжя, вул. Східна 5а</p>
       </div>
       <div className="resp-menu-sticky">
         <div className="responsive_menu">
@@ -131,9 +129,6 @@ const Header = () => {
             <Inputs className="tags-names">
               <img src={Funiro} className="logos" alt="funiro" />
               <ul>
-                <li>
-                  <a href="#intro">Головна</a>
-                </li>
                 <li>
                   <a href="#merchandise">Товари</a>
                 </li>

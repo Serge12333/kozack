@@ -10,7 +10,7 @@ const MainWrapper = styled.div`
 `;
 
 const Container = styled.div`
-  padding-top: 40px;
+  padding-top: 0px;
   width: 100%;
   text-align: center;
   h4 {
@@ -41,7 +41,7 @@ const Photos = () => {
         <Container>
           <h3 className="titlefnr" id="contacts">Наші контакти</h3>
           <div className="contactholder">
-            <img src={map} alt="map" />
+            <img src={map} alt="map" className="mapp"/>
           </div>
         </Container>
       </MainWrapper>

@@ -12,7 +12,6 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Intro />
       <OurProducts />
       <Beau />
       <Photos />

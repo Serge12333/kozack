@@ -92,6 +92,9 @@ const ContentSub = styled.div`
   display: flex;
   align-items: center;
   column-gap: 10.08px;
+  img{
+    margin 0 10px;
+  }
 `;
 
 const Footer = () => {

@@ -11,7 +11,7 @@
 }
 
 .navigation-none {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 @media (max-width: 1509px) {
@@ -141,10 +141,25 @@
     display: block;
     transition: 0.5s ease-in-out;
     margin-bottom: 20px;
+    text-align: center !important;
   }
+
+  .sidenav p{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Gilroy";
+    font-size: 27px;
+    color: rgb(255, 231, 18);
+    display: block;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    margin-top: 0px;
+  }
+
 
   .sidenav :nth-child(5) {
     margin-bottom: 30px;
+    font-size: 30px;
   }
 
   .sidenav .white-line {

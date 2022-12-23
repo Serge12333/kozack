@@ -9,7 +9,7 @@ import pro from "../Content/our-products/pro.jpg";
 import blackout from "../Content/our-products/blackout.jpg";
 
 const MainWrapper = styled.div`
-  padding-top: 40px;
+  padding-top: 0px;
   margin: 0 auto;
   width: 85%;
   h3 {
