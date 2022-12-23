@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kozack/static/css/main.4f26475a.css",
-    "main.js": "/kozack/static/js/main.2fa61347.js",
+    "main.css": "/kozack/static/css/main.636eb957.css",
+    "main.js": "/kozack/static/js/main.58201b33.js",
     "static/js/787.283120fe.chunk.js": "/kozack/static/js/787.283120fe.chunk.js",
     "static/media/caravan.jpg": "/kozack/static/media/caravan.e89245d7f4bd0bea22a6.jpg",
     "static/media/blackout.jpg": "/kozack/static/media/blackout.a016df523910e60f164a.jpg",
     "static/media/pro.jpg": "/kozack/static/media/pro.c58bf2a251c579395dd8.jpg",
-    "static/media/acc100.jpg": "/kozack/static/media/acc100.eaa22b542fa3a08338b5.jpg",
     "static/media/solar.jpg": "/kozack/static/media/solar.2b54a6a582c35e3d8bca.jpg",
+    "static/media/acc100.jpg": "/kozack/static/media/acc100.8a3f706f9ac27693e082.jpg",
     "static/media/basic.jpg": "/kozack/static/media/basic.a1c6c093645438770e72.jpg",
-    "static/media/acc110.jpg": "/kozack/static/media/acc110.9732b45ee913f0b8e337.jpg",
-    "static/media/acc140.jpg": "/kozack/static/media/acc140.208fdb88450b799f5037.jpg",
+    "static/media/acc110.jpg": "/kozack/static/media/acc110.4396cb7c2b77a7d8667f.jpg",
+    "static/media/acc140.jpg": "/kozack/static/media/acc140.e3ccc81b2b678fd7a969.jpg",
     "static/media/powmrr.jpg": "/kozack/static/media/powmrr.901f52d02309e852773f.jpg",
     "static/media/easun.jpg": "/kozack/static/media/easun.886d72ae97c8eea91469.jpg",
     "static/media/3.jpg": "/kozack/static/media/3.80130c26f098a228a0d9.jpg",
@@ -37,12 +37,12 @@
     "static/media/slick.ttf": "/kozack/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/kozack/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/kozack/index.html",
-    "main.4f26475a.css.map": "/kozack/static/css/main.4f26475a.css.map",
-    "main.2fa61347.js.map": "/kozack/static/js/main.2fa61347.js.map",
+    "main.636eb957.css.map": "/kozack/static/css/main.636eb957.css.map",
+    "main.58201b33.js.map": "/kozack/static/js/main.58201b33.js.map",
     "787.283120fe.chunk.js.map": "/kozack/static/js/787.283120fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f26475a.css",
-    "static/js/main.2fa61347.js"
+    "static/css/main.636eb957.css",
+    "static/js/main.58201b33.js"
   ]
 }
