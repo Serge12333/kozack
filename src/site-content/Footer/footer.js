@@ -114,7 +114,7 @@ const Footer = () => {
               <img src={Call} />
               <a href="tel: +380954941010">+38 (095) 494-10-10</a>
             </ContentSub>
-            <a href="https://kozack-enegrgy.com.ua/">www.kozack-energy.com.ua</a>
+            <a href="https://kozackenergy.com/">www.kozackenergy.com</a>
           </Column>
         </ContentHolder>
       </Container>
