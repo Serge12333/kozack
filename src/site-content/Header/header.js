@@ -105,7 +105,7 @@ const Header = () => {
           Контакти
         </a>
         <div className="white-line"></div>
-        <a href="tel: +380954941010" className="info_contact">+38 (095) 494 10 10</a>
+        <a href="tel: +380954941010" className="info_contact">+38 (050) 807 89 88</a>
         <p className="info_contact">Україна, м. Запоріжжя, вул. Східна 5а</p>
       </div>
       <div className="resp-menu-sticky">

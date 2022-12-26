@@ -244,7 +244,7 @@ const OurProducts = () => {
           </div>
         </Gridwrapper>
         <h3>Замовлення за телефоном:</h3>
-        <h3>095 494 10 10</h3>
+        <h3>+38 (050) 807 89 88</h3>
       </MainWrapper>
     </AnimatedPage>
   );

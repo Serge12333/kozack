@@ -112,8 +112,9 @@ const Footer = () => {
             </ContentSub>
             <ContentSub>
               <img src={Call} />
-              <a href="tel: +380954941010">+38 (095) 494-10-10</a>
+              <a href="tel: +380954941010">+38 (050) 807 89 88</a>
             </ContentSub>
+            <a href="mailto:kozackenergy@gmail.com">kozackenergy@gmail.com</a>
             <a href="https://kozackenergy.com/">www.kozackenergy.com</a>
           </Column>
         </ContentHolder>
