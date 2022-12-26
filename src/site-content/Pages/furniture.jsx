@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import "@fancyapps/ui/dist/fancybox.css";
 import "./furniture.css";
-import map from "../Content/furniture/map.jpg";
+import mapss from "../Content/furniture/mapps.jpg";
 import AnimatedPage from "./AnimatedPage";
 
 const MainWrapper = styled.div`
@@ -41,7 +41,7 @@ const Photos = () => {
         <Container>
           <h3 className="titlefnr" id="contacts">Наші контакти</h3>
           <div className="contactholder">
-            <img src={map} alt="map" className="mapp"/>
+            <img src={mapss} alt="map" className="mapp"/>
           </div>
         </Container>
       </MainWrapper>
