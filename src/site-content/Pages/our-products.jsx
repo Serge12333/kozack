@@ -194,7 +194,7 @@ const OurProducts = () => {
               <p className="descrp">Макс напруга заряджання : 14,40 В</p>
               <p className="descrp">Мін напруга заряджання : 12,30 В</p>
               <div className="priceHolder">
-                <p className="price">11 000 грн</p>
+                <p className="price">9 700 грн</p>
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ const OurProducts = () => {
               <p className="descrp">Макс напруга заряджання : 14,40 В</p>
               <p className="descrp">Мін напруга заряджання : 12,30 В</p>
               <div className="priceHolder">
-                <p className="price">11 900 грн</p>
+                <p className="price">10 500 грн</p>
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@ const OurProducts = () => {
               <p className="descrp">Макс напруга заряджання : 14,40 В</p>
               <p className="descrp">Мін напруга заряджання : 12,30 В</p>
               <div className="priceHolder">
-                <p className="price">14 500 грн</p>
+                <p className="price">13 200 грн</p>
               </div>
             </div>
           </div>
